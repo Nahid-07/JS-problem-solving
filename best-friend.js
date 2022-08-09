@@ -2,7 +2,7 @@
 
 function bestFriend(array){
     let largest = array[0];
-    for(i=0;i<array.length;i++){
+    for(let i=0;i<array.length;i++){
         let element = array[i];
         if(element.length>largest.length){
             largest = element;
